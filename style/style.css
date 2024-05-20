@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+
+header{
+    height: 67vh;
+    width: 100%;
+    background-image: url(../assets/imagenes/banner-bk.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.containerHeader{
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 5%;
+}
+
+#h1Header{
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
