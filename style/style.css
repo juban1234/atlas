@@ -132,3 +132,14 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 20px;
 }
+
+main{
+    height: 87vh;
+    width: 100%;
+    background-image: url(../assets/imagenes/fondo\ seccion\ 2.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
