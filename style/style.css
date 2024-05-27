@@ -254,3 +254,62 @@ p{
     background-color: white;
     border: 2px solid #000000; 
 }
+
+.section3{
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width:100% ;
+    height: 30vh;
+}
+
+.section4{
+    height: 60vh;
+    width: 100%;
+    background-image: url(../assets/imagenes/contact-bk.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 10px 30px;
+
+}
+
+.contac-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+footer{
+    height: 10vh;
+    width: 100%;
+    background-color: #1c2841;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Acceso-redes{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
