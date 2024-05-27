@@ -286,19 +286,42 @@ p{
 
 }
 
+#datos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
 .contac-div{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    color: #ffffff;
+    padding: 0% 50px;
     width: 50%;
     height: 100%;
+}
+
+#color1{
+    color: var(--color-principal);
+}
+
+#espacio{
+    padding: 0px 50px;
+}
+
+#color{
+    background-color: #00113f;
+    border: 1px solid var(--color-principal)
 }
 
 footer{
     height: 10vh;
     width: 100%;
     background-color: #1c2841;
+    color: #ffffff;
     display: flex;
     justify-content: space-around;
     align-items: center;
