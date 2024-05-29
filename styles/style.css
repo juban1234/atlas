@@ -8,7 +8,7 @@
 header{
     height: 67vh;
     width: 100%;
-    background-image: url(../assets/imagenes/banner-bk.jpg);
+    background-image: url(assets/imagenes/banner-bk.jpg);
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -141,7 +141,7 @@ nav{
 main{
     height: 100vh;
     width: 100%;
-    background-image: url(../assets/imagenes/fondo\ seccion\ 2.png);
+    background-image: url(assets/imagenes/fondo\ seccion\ 2.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -268,7 +268,7 @@ p{
 .section4{
     height: 60vh;
     width: 100%;
-    background-image: url(../assets/imagenes/contact-bk.jpg);
+    background-image: url(assets/imagenes/contact-bk.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
