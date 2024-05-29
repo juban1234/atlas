@@ -313,7 +313,7 @@ p{
 }
 
 #color{
-    background-color: #00113f;
+    background-color:transparent;
     border: 1px solid var(--color-principal)
 }
 
