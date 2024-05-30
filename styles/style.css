@@ -11,9 +11,10 @@ header{
     background-image: url(imagenes/banner-bk.jpg);
     background-size: cover;
     display: flex;
-    justify-content: space-around;
     align-items: flex-start;
     flex-direction: column;
+    justify-content: space-around;
+
 }
 
 #logo{
@@ -180,6 +181,8 @@ p{
     font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 #botonsec1{
     width: 180px;
@@ -378,9 +381,41 @@ footer{
   }
 
   @media (max-width: 920px) {
-    .section2{
-        width: 920px;
-        height: 463px;
-        padding: 0% 17px ;
+    #imgsec1{
+        width: 40%;
+        height: auto;
+    }
+
+    .section3{
+        flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 920px){
+    .containerHeader{
+        flex-wrap: wrap;
+    }
+
+    #h1Header{
+        font-size: 40px;
+        font-weight: 350;
+        margin-bottom: 20px;
+    }
+
+    .containerSec2{
+        flex-wrap: wrap;
+    }
+
+    #imgs2{
+        width: 100px;
+        height: auto;
+    }
+
+    .section4{
+        flex-direction: column-reverse;
+    }
+
+    footer{
+        flex-direction: column;
     }
   }
