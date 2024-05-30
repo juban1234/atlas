@@ -9,6 +9,7 @@ header{
     height: 67vh;
     width: 100%;
     background-image: url(imagenes/banner-bk.jpg);
+    background-size: cover;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -351,27 +352,35 @@ footer{
 }
 
 
-@media (max-width: 1250px) {
+@media (max-width: 1279px) {
+
     .containerHeader{
         display: flex;
-        justify-content: space-around;
         flex-direction: column;
         align-items: flex-start;
-        width: 100%;
-        height: 100%;
-        padding: 0% 17px ;
-        width: 100%;
-        height: auto;
     }
 
-    #textoHeader{
+    .containerSec2{
         justify-content: space-around;
-        flex-wrap: wrap;
-        padding: 5px 17px ;
     }
 
-    #h1Header{
-        margin: 0% ;
+    #sec2Tex{
+        padding: 10px 15px;
     }
 
+    #sec2TexN{
+        padding: 10px 25px;
+    }
+
+    #section1{
+        justify-content: space-around;
+    }
+  }
+
+  @media (max-width: 920px) {
+    .section2{
+        width: 920px;
+        height: 463px;
+        padding: 0% 17px ;
+    }
   }
