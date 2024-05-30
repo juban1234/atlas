@@ -391,7 +391,7 @@ footer{
     }
   }
 
-  @media (max-width: 920px){
+  @media (max-width: 748px){
     .containerHeader{
         flex-wrap: wrap;
     }
@@ -418,4 +418,58 @@ footer{
     footer{
         flex-direction: column;
     }
+  }
+
+  @media (max-width: 480px){
+    #h1Header{
+        font-size: 30px;
+        font-weight: 350;
+        margin-bottom: 20px;
+    }
+
+    #botonSec2{
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+    #sec2Tex{
+        font-size: 15px;
+    }
+    
+    .containerSec2{
+       margin: 0%;
+    }
+
+    #section1{
+        flex-direction: column;
+        padding: 10px ;
+        font-size: 1px;
+    }
+    .inputs{
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #datos{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #arganizar{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #btn{
+        width: auto;
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
   }
