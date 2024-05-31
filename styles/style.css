@@ -448,7 +448,8 @@ footer{
         font-size: 1px;
     }
     .inputs{
-        justify-content: flex-start;
+        width: 300px;
+        justify-content: flex-end;
         align-items: flex-start;
         flex-wrap: wrap;
         flex-direction: column;
@@ -460,16 +461,29 @@ footer{
     }
 
     #arganizar{
+        margin: 0%;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     #btn{
-        width: auto;
+        width: 200px;
         font-size: 15px;
         padding: 5px 10px;
     }
+    #color{
+        width: 250px;
+    }
+    h1{
+        font-size: 30px
+    }
+    #seccion2-h1{
+        padding: 0% 10px;
+    }
 
+    #section1{
+        padding: 0%;
+    }
   }
