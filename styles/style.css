@@ -421,6 +421,9 @@ footer{
   }
 
   @media (max-width: 480px){
+    header{
+        height: auto;
+    }
     #h1Header{
         font-size: 30px;
         font-weight: 350;
